@@ -169,7 +169,8 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 75px;
+  max-width: 1000%;
+
 }
 
 .profile__border {
