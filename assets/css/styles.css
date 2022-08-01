@@ -452,6 +452,9 @@ body.dark-theme {
   .temp{
     display: none;
   }
+   .picc{
+    width: 70%;
+  }
   .profile__info{
     column-gap: 1.5rem;
   }
