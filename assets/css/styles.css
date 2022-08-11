@@ -55,6 +55,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
+
   color: var(--text-color);
   transition: .3s; /* For animation dark mode */
 }
@@ -97,6 +98,7 @@ body.dark-theme {
   --title-color: hsl(var(--hue), 12%, 95%);
   --text-color: hsl(var(--hue), 12%, 75%);
   --body-color: hsl(var(--hue), 40%, 8%);
+  --body-image: url("assets/img/blackw");
   --container-color: hsl(var(--hue), 24%, 12%);
 }
 
@@ -340,7 +342,7 @@ body.dark-theme {
 
 .projects__subtitle, 
 .projects__title {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .projects__subtitle {
@@ -444,7 +446,7 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 320px) {
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -452,7 +454,7 @@ body.dark-theme {
   .temp{
     display: none;
   }
-   .picc{
+  .picc{
     width: 70%;
   }
   .profile__info{
@@ -580,4 +582,3 @@ body.dark-theme {
     padding: 1.5rem 1.25rem;
     transition: .3s;
   }
-
