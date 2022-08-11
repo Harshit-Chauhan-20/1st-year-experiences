@@ -446,7 +446,7 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
